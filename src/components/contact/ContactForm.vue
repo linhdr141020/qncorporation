@@ -44,7 +44,7 @@
   
   <script setup>
   import { reactive } from 'vue';
-  
+  import emailjs from '@emailjs/browser'
   const form = reactive({
     firstName: '',
     lastName: '',
@@ -52,13 +52,33 @@
     message: ''
   });
   
-  const handleSubmit = () => {
-    // Handle form submission
-    console.log('Form submitted:', form);
+const handleSubmit = async () => {
+  try {
+    const templateParams = {
+      first_name: form.firstName,
+      last_name: form.lastName,
+      email: form.email,
+      message: form.message,
+    };
+
+    await emailjs.send(
+      'service_6am5l88',
+      'template_ledp0bq',
+      templateParams,
+      'QdvBSGWbU2TMuEXvm'
+    );
+
+    alert('Message sent successfully!');
+
     // Reset form
     form.firstName = '';
     form.lastName = '';
     form.email = '';
     form.message = '';
-  };
+
+  } catch (error) {
+    console.error('Email error:', error);
+    alert('Failed to send message.');
+  }
+};
   </script>

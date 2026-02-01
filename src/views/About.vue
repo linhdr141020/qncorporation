@@ -11,7 +11,7 @@
           <div>
             <h2 class="text-3xl font-bold mb-6">Our Story</h2>
             <p class="text-gray-600 mb-4">
-              Founded in 2020, we've been at the forefront of digital innovation, helping businesses transform their online presence and achieve remarkable growth.
+              Founded in 2019, we have been developing mobile applications and software solutions that help businesses digitize operations and achieve sustainable growth.
             </p>
             <p class="text-gray-600 mb-6">
               Our team combines creativity with technical expertise to deliver solutions that not only look great but drive real business results.
@@ -40,7 +40,7 @@
 import PageHeader from '@/components/shared/PageHeader.vue';
 
 const stats = [
-  { value: '100+', label: 'Projects Completed' },
+  { value: '5+', label: 'Projects Completed' },
   { value: '50+', label: 'Happy Clients' },
   { value: '15+', label: 'Team Members' },
   { value: '4+', label: 'Years Experience' }

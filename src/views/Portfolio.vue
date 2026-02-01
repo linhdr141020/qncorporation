@@ -38,9 +38,9 @@ import ProjectCard from '@/components/portfolio/ProjectCard.vue';
 import { projects } from '@/data/projects';
 
 const stats = [
-  { value: '50+', label: 'Projects Delivered' },
+  { value: '5+', label: 'Projects Delivered' },
   { value: '98%', label: 'Client Satisfaction' },
-  { value: '12+', label: 'Industry Awards' },
+  { value: '4+', label: 'Years Experience' },
   { value: '24/7', label: 'Support Available' }
 ];
 </script>

@@ -17,17 +17,17 @@
     {
       icon: 'pi pi-map-marker',
       title: 'Visit Us',
-      content: '123 Creative Street, Design District, CA 90210'
+      content: 'Group 16, Dong Ha Hamlet, Nam Son Commune, Soc Son District, Hanoi, Vietnam'
     },
     {
       icon: 'pi pi-envelope',
       title: 'Email Us',
-      content: 'hello@creative-agency.com'
+      content: 'contact@qncorporation.com'
     },
     {
       icon: 'pi pi-phone',
       title: 'Call Us',
-      content: '+1 (555) 123-4567'
+      content: '+84 972 136 903'
     },
     {
       icon: 'pi pi-clock',

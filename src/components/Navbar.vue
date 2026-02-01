@@ -2,7 +2,11 @@
   <Menubar :model="items" class="border-none shadow-sm backdrop-blur-sm fixed w-full z-50">
     <template #start>
       <router-link to="/" class="flex items-center gap-2 mr-4">
-        <span class="font-bold text-xl bg-black text-[#EBED9E] p-2 rounded transition-transform transform hover:scale-110">Creative</span>
+        <img 
+          src="/logo.png"
+          alt="Creative workspace"
+          class="w-[150px] h-[100px] rounded-2xl transform hover:scale-105 transition-transform duration-300"
+        />
       </router-link>
     </template>
     <template #end>
@@ -45,19 +49,19 @@ const items = [
   {
     label: 'Services',
     icon: 'pi pi-star',
-    command: () => route.path === '/' ? handleNavigation('services') : router.push('/services'),
+    command: () => router.push('/services'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   },
   {
-    label: 'Portfolio',
+    label: 'Contact us',
     icon: 'pi pi-images',
-    command: () => route.path === '/' ? handleNavigation('portfolio') : router.push('/portfolio'),
+    command: () => router.push('/contact'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   },
   {
-    label: 'About',
+    label: 'About us',
     icon: 'pi pi-users',
-    command: () => route.path === '/' ? handleNavigation('about') : router.push('/about'),
+    command: () => router.push('/about'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   }
 ];

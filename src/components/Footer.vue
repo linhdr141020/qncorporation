@@ -4,10 +4,14 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div class="flex items-center gap-2 mb-4">
-            <h3 class="font-bold text-xl" style="color: #EBED9E;">Creative</h3>
+                    <img 
+          src="/logo.png"
+          alt="Creative workspace"
+          class="w-[75px] h-[50px] transform hover:scale-105 transition-transform duration-300"
+        />
           </div>
           <p class="text-gray-400">
-            Crafting digital experiences that inspire and innovate.
+            We Have What You Need To Boost Your Businesses!
           </p>
         </div>
         <div>
@@ -47,15 +51,17 @@
         <div>
           <h3 class="font-bold mb-4"  style="color: #EBED9E;">Connect</h3>
           <div class="flex gap-4">
-            <i class="pi pi-facebook text-xl cursor-pointer hover:text-blue-400"></i>
-            <i class="pi pi-twitter text-xl cursor-pointer hover:text-blue-400"></i>
-            <i class="pi pi-instagram text-xl cursor-pointer hover:text-blue-400"></i>
-            <i class="pi pi-linkedin text-xl cursor-pointer hover:text-blue-400"></i>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61587366959381">
+              <i class="pi pi-facebook text-xl cursor-pointer hover:text-blue-400"></i>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCOX0w-nt_zHJfu3QafvpS4w">
+              <i class="pi pi-youtube text-xl cursor-pointer hover:text-blue-400"></i>
+            </a>
           </div>
         </div>
       </div>
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; {{ new Date().getFullYear() }} Creative Agency. All rights reserved.</p>
+        <p>&copy; {{ new Date().getFullYear() }} QN Corporation. All rights reserved.</p>
       </div>
     </div>
   </footer>

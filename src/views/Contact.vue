@@ -18,19 +18,6 @@
             <div class="lg:pl-8">
               <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
               <ContactInfo />
-              
-              <!-- Social Media Links -->
-              <div class="mt-12">
-                <h3 class="font-semibold text-lg mb-4">Follow Us</h3>
-                <div class="flex gap-4">
-                  <a v-for="social in socialLinks" 
-                     :key="social.icon"
-                     href="#"
-                     class="p-3 bg-gray-50 rounded-full hover:bg-blue-50 hover:text-blue-600 transition-colors">
-                    <i :class="social.icon + ' text-xl'"></i>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>

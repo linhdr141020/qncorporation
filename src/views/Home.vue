@@ -5,28 +5,21 @@
       <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-8 pt-8 md:mt-0 md:pt-4">
         <!-- Left Content -->
         <div class="text-left">
-          <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600" style="line-height: 1.25!important;">
-            We Create <span class="relative">
-              <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-                Digital
-              </span>
-              <span 
-                class="absolute left-0 -bottom-2 w-full h-2 bg-[#f9ff00] rounded-md"
-              ></span>
-            </span> Experiences
-          </h1>
+          <h3 class="text-3xl font-bold mb-12" style="line-height: 1.25!important;">
+            QUANG NGUYEN SURVEY AND CONTRUCTION JSC - Technology & Digital Solutions
+          </h3>
           <p class="text-xl text-gray-600 mb-8">
-            Transform your brand with cutting-edge web solutions that captivate and convert.
+            We develop mobile applications, digital platforms, and software solutions that help businesses operate smarter and grow in the digital era.
           </p>
           <div class="flex gap-4">
-            <!-- "Get Started" Button with #EBED9E Background -->
+            <!-- "Get Started" Button with #000 Background -->
             <Button 
               @click="navigateToSection('services')" 
               label="Get Started" 
               icon="pi pi-arrow-right" 
               class="p-button-rounded p-button-lg custom-get-started"
             />
-            <!-- "Our Work" Button with #5A58E9 Background -->
+            <!-- "Our Work" Button with #000 Background -->
             <Button 
               @click="navigateToSection('portfolio')" 
               label="Our Work" 
@@ -38,7 +31,7 @@
         <!-- Right Illustration -->
         <div class="relative">
           <img 
-            src="/hero-img.svg"
+            src="/banner1.png"
             alt="Creative workspace"
             class="rounded-2xl transform hover:scale-105 transition-transform duration-300"
           />
@@ -85,7 +78,7 @@
         <div>
           <h2 class="text-3xl font-bold mb-6">Who We Are</h2>
           <p class="text-gray-600 mb-8">
-            We're a team of passionate creators and innovators dedicated to transforming ideas into impactful digital solutions.
+            Quang Nguyen JSC is a technology-focused company delivering mobile apps, web platforms, and custom software solutions for modern businesses. We combine engineering expertise with practical business insight to build reliable, scalable digital products. Our mission is to use technology to simplify operations, improve performance, and create real value for our partners.
           </p>
           <router-link to="/about">
             <Button label="Learn More" icon="pi pi-arrow-right" severity="secondary" class="p-button-rounded" />
@@ -93,7 +86,7 @@
         </div>
         <div class="relative">
           <img 
-            src="/about-logo.svg"
+            src="/banner2.jpg"
             alt="Our team"
             class="rounded-2xl transform hover:scale-105 transition-transform duration-300"
           />
