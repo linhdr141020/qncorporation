@@ -51,7 +51,7 @@
         <div>
           <h3 class="font-bold mb-4"  style="color: #EBED9E;">Connect</h3>
           <div class="flex gap-4">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=61587366959381">
+            <a target="_blank" href="https://www.facebook.com/people/QUANG-Nguyen-Survey-and-Contruction-JSC-Technology-Digital-Solutions/61568004133724/">
               <i class="pi pi-facebook text-xl cursor-pointer hover:text-blue-400"></i>
             </a>
             <a target="_blank" href="https://www.youtube.com/channel/UCOX0w-nt_zHJfu3QafvpS4w">
