@@ -5,7 +5,7 @@
         <div>
           <div class="flex items-center gap-2 mb-4">
                     <img 
-          src="/logo.png"
+          src="/logo1.png"
           alt="Creative workspace"
           class="w-[75px] h-[50px] transform hover:scale-105 transition-transform duration-300"
         />
