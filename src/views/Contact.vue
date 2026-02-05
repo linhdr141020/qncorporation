@@ -6,7 +6,7 @@
       />
       
       <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-20">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <!-- Contact Form -->
             <div class="bg-white p-8 rounded-2xl shadow-lg">
@@ -16,7 +16,6 @@
             
             <!-- Contact Information -->
             <div class="lg:pl-8">
-              <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
               <ContactInfo />
             </div>
           </div>

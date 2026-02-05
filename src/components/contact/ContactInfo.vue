@@ -17,17 +17,17 @@
     {
       icon: 'pi pi-map-marker',
       title: 'Visit Us',
-      content: 'Group 16, Dong Ha Hamlet, Nam Son Commune, Soc Son District, Hanoi, Vietnam'
+      content: '169 Nguyen Ngoc Vu Street, Trung Hoa Ward, Cau Giay District, Hanoi 100000, Vietnam'
     },
     {
       icon: 'pi pi-envelope',
       title: 'Email Us',
-      content: 'contact@qncorporation.com'
+      content: 'support@gravityhubs.com'
     },
     {
       icon: 'pi pi-phone',
       title: 'Call Us',
-      content: '+84 972 136 903'
+      content: '+84 912 071 761'
     },
     {
       icon: 'pi pi-clock',

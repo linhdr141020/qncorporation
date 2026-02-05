@@ -9,11 +9,6 @@
         />
       </router-link>
     </template>
-    <template #end>
-      <router-link to="/contact">
-        <Button label="Contact Us" icon="pi pi-send" class="p-button-rounded bg-[#4745C9] text-white p-3 hover:bg-[#3633A2] transition-all" />
-      </router-link>
-    </template>
   </Menubar>
 </template>
 
@@ -42,25 +37,21 @@ const handleNavigation = (id) => {
 const items = [
   {
     label: 'Home',
-    icon: 'pi pi-home',
     command: () => router.push('/'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   },
   {
     label: 'Services',
-    icon: 'pi pi-star',
     command: () => router.push('/services'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   },
   {
     label: 'Contact us',
-    icon: 'pi pi-images',
     command: () => router.push('/contact'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   },
   {
     label: 'About us',
-    icon: 'pi pi-users',
     command: () => router.push('/about'),
     class: 'relative after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[3px] after:bg-[#5A58E9] after:transition-all hover:after:w-full'
   }

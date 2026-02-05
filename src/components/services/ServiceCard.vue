@@ -8,7 +8,7 @@
       <p class="text-gray-600 mb-4">{{ description }}</p>
       <ul class="text-sm text-gray-500 space-y-2">
         <li v-for="feature in features" :key="feature" class="flex items-center gap-2">
-          <i class="pi pi-check text-green-500"></i>
+          <i class="pi pi-angle-right text-green-500"></i>
           {{ feature }}
         </li>
       </ul>

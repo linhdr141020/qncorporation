@@ -6,7 +6,7 @@
     />
     
     <section class="py-16 bg-white">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-20">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ServiceCard
             v-for="service in services"

@@ -2,28 +2,19 @@
   <main>
     <!-- Hero Section -->
     <section id="home" class="min-h-screen flex items-center relative overflow-hidden">
-      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-8 pt-8 md:mt-0 md:pt-4">
+      <div class="container mx-auto px-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-8 pt-8 md:mt-0 md:pt-4">
         <!-- Left Content -->
         <div class="text-left">
-          <h3 class="text-3xl font-bold mb-12" style="line-height: 1.25!important;">
-            QUANG NGUYEN SURVEY AND CONTRUCTION JSC - Technology & Digital Solutions
+          <h3 class="text-3xl font-bold mb-8" style="line-height: 1.25!important;">
+            Streamline your E-commerce strategy and boost sales with ease!
           </h3>
           <p class="text-xl text-gray-600 mb-8">
-            We develop mobile applications, digital platforms, and software solutions that help businesses operate smarter and grow in the digital era.
+            We design and develop mobile applications, digital platforms, and software solutions that enable businesses to optimize operations and accelerate growth in the digital age.
           </p>
           <div class="flex gap-4">
-            <!-- "Get Started" Button with #000 Background -->
-            <Button 
-              @click="navigateToSection('services')" 
-              label="Get Started" 
-              icon="pi pi-arrow-right" 
-              class="p-button-rounded p-button-lg custom-get-started"
-            />
-            <!-- "Our Work" Button with #000 Background -->
             <Button 
               @click="navigateToSection('portfolio')" 
-              label="Our Work" 
-              icon="pi pi-images" 
+              label="Our Project" 
               class="p-button-rounded p-button-lg custom-our-work"
             />
           </div>
@@ -31,7 +22,7 @@
         <!-- Right Illustration -->
         <div class="relative">
           <img 
-            src="/banner1.png"
+            src="/banner1.webp"
             alt="Creative workspace"
             class="rounded-2xl transform hover:scale-105 transition-transform duration-300"
           />
@@ -44,7 +35,7 @@
 
         <!-- Services Section -->
         <section id="services" class="py-20 bg-white">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-20">
         <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ServiceCard v-for="service in services.slice(0, 3)" :key="service.title" v-bind="service" />
@@ -59,8 +50,8 @@
 
     <!-- Portfolio Preview -->
     <section id="portfolio" class="py-20 bg-gray-50">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+      <div class="container mx-auto px-20">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ProjectCard v-for="project in projects.slice(0, 3)" :key="project.title" v-bind="project" />
         </div>
@@ -74,11 +65,11 @@
 
     <!-- About Preview -->
     <section id="about" class="py-20 bg-white">
-      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="container mx-auto px-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 class="text-3xl font-bold mb-6">Who We Are</h2>
+          <h2 class="text-3xl font-bold mb-6">About us</h2>
           <p class="text-gray-600 mb-8">
-            Quang Nguyen JSC is a technology-focused company delivering mobile apps, web platforms, and custom software solutions for modern businesses. We combine engineering expertise with practical business insight to build reliable, scalable digital products. Our mission is to use technology to simplify operations, improve performance, and create real value for our partners.
+            Gravity Hubs builds mobile apps, web platforms, and custom software solutions that help modern businesses operate smarter. We focus on scalable technology that delivers real, measurable value.
           </p>
           <router-link to="/about">
             <Button label="Learn More" icon="pi pi-arrow-right" severity="secondary" class="p-button-rounded" />
@@ -86,7 +77,7 @@
         </div>
         <div class="relative">
           <img 
-            src="/banner2.jpg"
+            src="/banner3.jpg"
             alt="Our team"
             class="rounded-2xl transform hover:scale-105 transition-transform duration-300"
           />
@@ -96,7 +87,7 @@
 
     <!-- CTA Section -->
     <section id="contact" class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-      <div class="container mx-auto px-4 text-center">
+      <div class="container mx-auto px-20 text-center">
         <h2 class="text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Let's create something amazing together. Get in touch with our team today.

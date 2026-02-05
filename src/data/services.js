@@ -1,68 +1,62 @@
 export const services = [
   {
-    icon: 'pi pi-desktop',
-    title: 'Web Design',
-    description: 'Create stunning, user-friendly websites that leave a lasting impression.',
+    title: 'Web & Platform Development',
+    description: 'Design and build scalable web platforms tailored to your business needs.',
     features: [
-      'Responsive Design',
-      'UI/UX Design',
-      'Mobile-First Approach',
-      'Performance Optimization'
+      'Custom Web Applications',
+      'Modern UI/UX Design',
+      'High Performance & Scalability',
+      'Secure Architecture'
     ]
   },
   {
-    icon: 'pi pi-code',
-    title: 'Development',
-    description: 'Build robust web applications with cutting-edge technologies.',
+    title: 'Mobile App Development',
+    description: 'Develop high-quality mobile applications for iOS and Android that users love.',
     features: [
-      'Full-Stack Development',
-      'Custom Solutions',
-      'API Integration',
-      'Cloud Deployment'
+      'Native & Cross-Platform Apps',
+      'User-Centered UI/UX',
+      'App Performance Optimization',
+      'App Store Deployment'
     ]
   },
   {
-    icon: 'pi pi-palette',
-    title: 'Branding',
-    description: 'Develop a strong brand identity that resonates with your audience.',
+    title: 'Custom Software Solutions',
+    description: 'Build tailored software solutions to streamline operations and improve efficiency.',
     features: [
-      'Logo Design',
-      'Brand Guidelines',
-      'Visual Identity',
-      'Brand Strategy'
+      'Business Process Automation',
+      'Custom System Development',
+      'Third-Party Integration',
+      'Scalable Architecture'
     ]
   },
   {
-    icon: 'pi pi-chart-line',
-    title: 'Digital Marketing',
-    description: 'Drive growth with data-driven digital marketing strategies.',
+    title: 'UI/UX Design',
+    description: 'Create intuitive and engaging user experiences that drive conversion and retention.',
     features: [
-      'SEO Optimization',
-      'Content Marketing',
-      'Social Media',
-      'Analytics & Reporting'
+      'User Research & Wireframing',
+      'Product Design Systems',
+      'Prototyping & Testing',
+      'Design for Web & Mobile'
     ]
   },
   {
-    icon: 'pi pi-mobile',
-    title: 'App Development',
-    description: 'Create powerful mobile applications for iOS and Android.',
+    title: 'Cloud & DevOps',
+    description: 'Leverage cloud technologies to deploy, scale, and manage your applications efficiently.',
     features: [
-      'Native Development',
-      'Cross-Platform Apps',
-      'UI/UX Design',
-      'App Store Optimization'
+      'Cloud Infrastructure Setup',
+      'CI/CD Pipelines',
+      'AWS, Azure & GCP',
+      'Monitoring & Security'
     ]
   },
   {
-    icon: 'pi pi-cloud',
-    title: 'Cloud Solutions',
-    description: 'Leverage cloud technology to scale your business efficiently.',
+    title: 'Technology Consulting',
+    description: 'Get expert guidance to choose the right technology and architecture for your product.',
     features: [
-      'Cloud Migration',
-      'AWS/Azure Services',
-      'DevOps',
-      'Security & Compliance'
+      'Technical Strategy & Planning',
+      'System Architecture Design',
+      'Performance & Security Audits',
+      'Product Scaling Advice'
     ]
   }
 ];

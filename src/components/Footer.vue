@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-900 text-white py-12">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-20">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div class="flex items-center gap-2 mb-4">
@@ -51,7 +51,7 @@
         <div>
           <h3 class="font-bold mb-4"  style="color: #EBED9E;">Connect</h3>
           <div class="flex gap-4">
-            <a target="_blank" href="https://www.facebook.com/people/QUANG-Nguyen-Survey-and-Contruction-JSC-Technology-Digital-Solutions/61568004133724/">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61587277032427">
               <i class="pi pi-facebook text-xl cursor-pointer hover:text-blue-400"></i>
             </a>
             <a target="_blank" href="https://www.youtube.com/channel/UCOX0w-nt_zHJfu3QafvpS4w">
@@ -61,7 +61,7 @@
         </div>
       </div>
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; {{ new Date().getFullYear() }} QN Corporation. All rights reserved.</p>
+        <p>&copy; {{ new Date().getFullYear() }} Gravity Hubs. All rights reserved.</p>
       </div>
     </div>
   </footer>

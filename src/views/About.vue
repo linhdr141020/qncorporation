@@ -6,15 +6,12 @@
     />
     
     <section class="py-16 bg-white">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-20">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 class="text-3xl font-bold mb-6">Our Story</h2>
             <p class="text-gray-600 mb-4">
-              Founded in 2019, we have been developing mobile applications and software solutions that help businesses digitize operations and achieve sustainable growth.
-            </p>
-            <p class="text-gray-600 mb-6">
-              Our team combines creativity with technical expertise to deliver solutions that not only look great but drive real business results.
+              Founded in 2019, we have been building mobile applications and software solutions that enable businesses to digitize their operations and grow sustainably. Our team blends creativity with strong technical expertise to deliver products that are both visually compelling and highly effective in driving business results.
             </p>
             <div class="grid grid-cols-2 gap-8">
               <div v-for="stat in stats" :key="stat.label" class="text-center">
@@ -40,9 +37,9 @@
 import PageHeader from '@/components/shared/PageHeader.vue';
 
 const stats = [
-  { value: '5+', label: 'Projects Completed' },
+  { value: '2+', label: 'Projects Completed' },
   { value: '50+', label: 'Happy Clients' },
-  { value: '15+', label: 'Team Members' },
-  { value: '4+', label: 'Years Experience' }
+  { value: '10+', label: 'Team Members' },
+  { value: '2+', label: 'Years Experience' }
 ];
 </script>
