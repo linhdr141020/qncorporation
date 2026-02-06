@@ -17,7 +17,7 @@
     {
       icon: 'pi pi-map-marker',
       title: 'Visit Us',
-      content: '169 Nguyen Ngoc Vu Street, Trung Hoa Ward, Cau Giay District, Hanoi 100000, Vietnam'
+      content: 'No. 44, Alley 445 Lac Long Quan Street, Xuan La Ward, Tay Ho District, Hanoi City, Vietnam'
     },
     {
       icon: 'pi pi-envelope',
@@ -27,7 +27,7 @@
     {
       icon: 'pi pi-phone',
       title: 'Call Us',
-      content: '+84 912 071 761'
+      content: '+84 974848363'
     },
     {
       icon: 'pi pi-clock',

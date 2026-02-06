@@ -11,7 +11,7 @@
           <div>
             <h2 class="text-3xl font-bold mb-6">Our Story</h2>
             <p class="text-gray-600 mb-4">
-              Founded in 2023, we have been building mobile applications and software solutions that enable businesses to digitize their operations and grow sustainably. Our team blends creativity with strong technical expertise to deliver products that are both visually compelling and highly effective in driving business results.
+              Founded in 2013, we have been building mobile applications and software solutions that enable businesses to digitize their operations and grow sustainably. Our team blends creativity with strong technical expertise to deliver products that are both visually compelling and highly effective in driving business results.
             </p>
             <div class="grid grid-cols-2 gap-8">
               <div v-for="stat in stats" :key="stat.label" class="text-center">
